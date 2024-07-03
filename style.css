@@ -1,0 +1,32 @@
+.pink-box {
+    background-color: rgb(235, 66, 95);
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.blue-box {
+    background-color: rgb(14, 201, 230);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.nav-container{
+    background-color: rgb(163, 143, 182);
+    position: fixed;
+    width: 100vw;
+    margin: 0px;
+    list-style-type: none;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.position-sticky{
+    position: sticky;
+    color: rgb(214, 9, 9);
+    top: 20px;
+}
